@@ -1,0 +1,5 @@
+Test game field size - p
+Test adding game objects to game field
+Test game object generation
+Test moving of game objects on the game field
+Test collision detection
