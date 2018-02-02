@@ -1,4 +1,5 @@
-Test game field size - p
+Test game field size - done
+Test game object position
 Test adding game objects to game field
 Test game object generation
 Test moving of game objects on the game field

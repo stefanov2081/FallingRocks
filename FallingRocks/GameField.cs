@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace FallingRocks
+﻿namespace FallingRocks
 {
+    using System;
+
     public class GameField
     {
         private int width;

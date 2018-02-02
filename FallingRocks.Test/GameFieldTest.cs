@@ -33,11 +33,18 @@ namespace FallingRocks.Test
         }
 
         [TestMethod]
-        public void Constructor_WithPositiveSize_SetsSize()
+        public void Constructor_WithPositiveWidth_SetsWidth()
         {
             var gameField = new GameField(positiveWidth, positiveHeight);
 
             Assert.AreEqual(positiveWidth, gameField.Width, "GameField.Width is not set.");
+        }
+
+        [TestMethod]
+        public void Constructor_WithPositiveHeight_SetsHeight()
+        {
+            var gameField = new GameField(positiveWidth, positiveHeight);
+
             Assert.AreEqual(positiveHeight, gameField.Height, "GameField.Height is not set.");
         }
 
