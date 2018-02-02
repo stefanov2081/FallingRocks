@@ -10,7 +10,7 @@ namespace FallingRocks
         public GameField(int width, int height)
         {
             Width = width;
-            this.height = height;
+            Height = height;
         }
 
         public int Width
@@ -28,6 +28,24 @@ namespace FallingRocks
                 }
 
                 width = value;
+            }
+        }
+
+        public int Height
+        {
+            get
+            {
+                return height;
+            }
+
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Height must be greater than 0.");
+                }
+
+                height = value;
             }
         }
     }
