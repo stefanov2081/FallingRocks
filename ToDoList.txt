@@ -4,3 +4,6 @@ Test adding game objects to game field
 Test game object generation
 Test moving of game objects on the game field
 Test collision detection
+
+Notes:
+- To eliminate shimmmering in console app, set buffer width and height
